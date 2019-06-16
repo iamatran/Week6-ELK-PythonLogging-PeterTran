@@ -13,7 +13,7 @@ test_logger.warning('python-logstash: test logstash warning message. ')
 
 # add extra field to logstash message
 extra = {
-	'test_string': 'python version: ' + repr(sys.version_)
+	'test_string': 'python version: ' + repr(sys.version_),
 	'test_boolean': True,
 	'test_dict': {'a': 1, 'b': 'c'},
 	'test_float': 1.23,
